@@ -1,0 +1,16 @@
+﻿<Window x:Class="Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Main"
+        mc:Ignorable="d"
+        Title="CFX Server setup" Height="450" Width="800">
+    <Grid>
+        <Button Content="Vælg fil placering " HorizontalAlignment="Center" Margin="0,65,0,0" VerticalAlignment="Top" Height="23" Width="596" Click="Button_Click_GetPath"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="596" x:Name="Path_txt" Height="23"/>
+        <Button Content="Setup 1" HorizontalAlignment="Left" Margin="227,152,0,0" VerticalAlignment="Top" Height="65" Width="119" Click="Btn_Setup_ESX"/>
+        <Button Content="Setup 2" HorizontalAlignment="Left" Margin="450,152,0,0" VerticalAlignment="Top" Height="65" Width="119" Click="Btn_Setup_vRP"/>
+        <Button Content="Test" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Height="44" Width="64" Click="Button_Click_3"/>
+    </Grid>
+</Window>
